@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    android:padding="@dimen/padding"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/etLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="@string/et_latitud_hint"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/etLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etLatitud"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="@string/et_longitud_hint"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:background="@color/colorPrimary"
+        android:onClick="consultarTiempo"
+        android:text="@string/btn_consultar" />
+</RelativeLayout>

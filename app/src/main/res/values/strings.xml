@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppConsultarTiempo</string>
+    <string name="et_longitud_hint">Longitud</string>
+    <string name="et_latitud_hint">Latitud</string>
+    <string name="btn_consultar">Consultar tiempo</string>
+    <string name="toast_campos_vacios">No puedes dejar los campos vacios</string>
+    <string name="tv_temperatura">%1$dº</string>
+    <string name="tv_humedad">HUMEDAD</string>
+    <string name="tv_lluvia">LLUVIA</string>
+    <string name="tv_valor_humedad">%1$d%</string>
+    <string name="tv_valor_lluvia">%1$d%</string>
+    <string name="toast_response_unsuccessful">No se ha recibido una respuesta del api</string>
+    <string name="toast_failure">Fallo al conectar con el API</string>
+</resources>
